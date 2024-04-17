@@ -1,0 +1,26 @@
+.card-title{
+    font-size: 0.9rem;
+    height: 50px;
+    overflow: auto;
+}
+.card-title::-webkit-scrollbar{
+    display: none;
+}
+.card-source{
+    display:flex;
+    justify-content: space-between;
+    font-size: 11px;
+    background-color: antiquewhite;
+    border-radius: 5%;
+}
+.card-text{
+    font-size: 0.8rem;
+    height: 160px;
+    overflow: auto;
+}
+.card-text::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    background-color: rgb(227, 205, 176);
+}
